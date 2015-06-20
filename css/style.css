@@ -1,20 +1,3 @@
-/*
-Theme Name: zh2
-Theme URI: http://zenhabits.net/theme/
-Author: Leo Babauta
-Author URI: http://leobabauta.com
-Description: A minimalist, content-focused theme.
-Version: 2
-License: Uncopyrighted
-License URI: http://zenhabits.net/open-source-blogging-feel-free-to-steal-my-content/
-
-This theme is uncopyrighted.
-Do whatever you'd like with it.
-*/
-
-/* css reset */
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -36,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -60,7 +43,7 @@ table {
 }
 /* end css reset */
 
-@media all { 
+@media all {
 	#wp-admin-bar-updates { display: none }
 	body {
 	    font: normal 100% Open Sans,Helvetica,sans-serif;
@@ -118,7 +101,7 @@ table {
 
 	    border-color: #c0c0c0;
 	}
-	h1 a#tagline { 
+	h1 a#tagline {
 		color: #56a49f;
 	}
 	/* post title */
@@ -141,7 +124,7 @@ table {
 	    margin-top: 1.5em;
 	    text-align: center;
 	}
-	h3.subtitle { 
+	h3.subtitle {
 	    margin-top: .5em;
 	}
 	h4 {
@@ -415,14 +398,14 @@ ol.commentlist .comment-author{
 .comment-body p{
 	margin: 5px;
 }
- 
+
 .comment-body .comment-author.vcard{
 	margin: 0;
 }
 }
 
 /* for iPad-sized devices */
-@media only screen and (max-device-width: 800px) { 
+@media only screen and (max-device-width: 800px) {
 	/* makes blog title not fade on touch screen */
 	.top {
 	    margin: auto;
@@ -464,7 +447,7 @@ ol.commentlist .comment-author{
 }
 
 /* for narrower browsers */
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
 	/* makes blog title not fade on touch screen */
 	.top {
 	    margin: auto;
@@ -503,7 +486,7 @@ ol.commentlist .comment-author{
 }
 
 /* for iPhone-sized devices */
-@media only screen and (max-device-width: 480px) { 
+@media only screen and (max-device-width: 480px) {
 	.container { width: auto }
 	body { padding: 0 }
 	h1 { font-size: 2em }
@@ -552,7 +535,7 @@ ol.commentlist .comment-author{
 }
 
 
-@media print { 
+@media print {
 	body {
 	    font-family: Helvetica,sans-serif;
 	    font-size: 14px;
