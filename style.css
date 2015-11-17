@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Lora', serif;
   color: #333333;
 }
 
@@ -35,10 +35,32 @@ a:active {
   text-align: left;
 }
 
+.listaposts {
+  text-align: left;
+}
+
 .menu {
  font-size: 14px;
 }
 
 .autor {
   color: #CCCCCC;
+}
+
+hr {
+  border-bottom: 1px;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
 }
