@@ -39,17 +39,26 @@ a:active {
   font-size: 22px;
 }
 
-.listaposts {
-  text-align: left;
+.listapostsanteriores {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.postsanteriores {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .autor {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .menu {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 
