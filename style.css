@@ -33,14 +33,14 @@ a:active {
 
 .texto {
   text-align: left;
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 .listaposts {
   text-align: left;
-}
-
-.menu {
- font-size: 14px;
 }
 
 .autor {
@@ -54,13 +54,6 @@ hr {
 h1 {
   font-family: 'Lora', serif;
   font-style: italic;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700;
-}
-
-p {
-  font-family: 'Lora', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
 }
