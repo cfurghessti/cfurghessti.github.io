@@ -1,25 +1,25 @@
 body {
   font-family: 'Lora', serif;
-  color: #333333;
+  color: #363636;
 }
 
 a:link {
-  color:#006699;
+  color:#B22222;
   text-decoration:none;
 }
 
 a:visited {
-  color:#006699;
+  color:#B22222;
   text-decoration:underline;
 }
 
 a:hover {
-  color:#006699;
+  color:#B22222;
   text-decoration: underline;
 }
 
 a:active {
-  color:#006699;
+  color:#B22222;
   text-decoration:underline;
 }
 
@@ -71,4 +71,24 @@ h1 {
   font-style: italic;
   font-size: 36px;
   font-weight: 700;
+}
+
+h5 {
+  font-family: 'Lora', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #828282;
+}
+
+blockquote {
+  font-family: 'Lora', serif;
+  font-style:italic;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding-left: 10px;
+  border-left: 3px solid #B5B5B5;
+  color: #363636;
 }
