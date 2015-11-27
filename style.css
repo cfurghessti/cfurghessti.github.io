@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  overflow: auto;
+  max-width: 600px;
+  margin: auto;
+  color: #000000;
+  }
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+.texto {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.postsanteriores {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+a:link {
+  color:#B22222;
+  text-decoration:none;
+  font-weight: bold;
+}
+hr {
+  border-bottom: 1px;
+}
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  padding-left: 10px;
+  border-left: 3px solid #B5B5B5;
+  color: #000000;
+}
