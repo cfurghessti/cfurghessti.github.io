@@ -19,6 +19,12 @@ h1 {
   font-style: normal;
   text-align: left;
 }
+.menu {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+}
 .listarquivo {
   font-size: 16px;
   font-weight: 400;
