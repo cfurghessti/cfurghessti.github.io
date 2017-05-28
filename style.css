@@ -3,22 +3,25 @@
  */
 
 /* Links */
-a,
-a:focus,
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
 a:hover {
-  color: #fff;
+    color: white;
 }
 
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #20B2AA;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+/* selected link */
+a:active {
+    color: white;
 }
-
 
 /*
  * Base structure
